@@ -10,7 +10,7 @@ import './App.css';
 // #7 On click of the search update the user state with the ref 
 // #8 After finish search functionality how do you map the response into the code?
 // #9 Get the theme switcher to work
-// #10 Turn reusable sections of the app to components (Finish rest of hw)
+// #10 Turn reusable sections of the app to components (Container,UserContent,UserInput.Finish rest of hw)
 
 function App() {
 
