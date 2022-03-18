@@ -22,8 +22,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
+.UserInput {
+    width: 100%;
+}
 
 .header {
     width: 100%;
@@ -221,27 +225,46 @@
 }
 
 
-/* Dark mode CSS */
+/* Dark Mode CSS */
 
 .App.dark {
-  background-color: rgb(20,29,47);
-  color: white;
+    background-color: rgb(20,29,47);
+    color: white;
 }
 
 .App.dark .content {
-  background-color: #1E2A47;
+    background-color: #1E2A47;
 }
 
 .App.dark #statistics {
-  background-color: rgb(20,29,47);
+    background-color: rgb(20,29,47);
 }
 
 .App.dark #search_container {
-  background-color: #1E2A47;
+    background-color: #1E2A47;
 }
 
 
 
 
 
-
+/* function darkModeProperties(){
+  background.backgroundColor = 'rgb(20,29,47)'
+  background.color = "white"
+  content.backgroundColor = '#1E2A47'
+  stats.backgroundColor = 'rgb(20,29,47)'
+  search.backgroundColor = '#1E2A47'
+  modeText.innerText = "LIGHT"
+  mode.src = "./assets/icon-sun.svg"
+  darkMode = true
+}
+function lightModeProperties(){
+  background.backgroundColor = '#F2F2F2'
+  background.color = "black"
+  content.backgroundColor = 'white'
+  stats.backgroundColor = '#F6F8FF'
+  search.backgroundColor = 'white'
+  modeText.innerText = "DARK"
+  dark_btn.src = "./assets/icon-moon.svg"
+  darkMode = false
+} */
